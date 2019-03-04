@@ -8,3 +8,6 @@ server:
 spring:
   application:
     name: first-client
+management: 
+    security: 
+        enabled: false
