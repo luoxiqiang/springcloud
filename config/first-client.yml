@@ -8,9 +8,6 @@ server:
 spring:
   application:
     name: first-client
-  zipkin:
-    sender:
-      type: web
   sleuth:
     sampler:
       probability: 1
